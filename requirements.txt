@@ -1,0 +1,31 @@
+PyQt6
+pyautogui
+pyperclip
+mss
+Pillow
+pynput
+SpeechRecognition
+PyAudio
+edge-tts
+pyttsx3
+screen_brightness_control
+PyInstaller
+requests
+beautifulsoup4
+
+# Windows-only volume control
+pycaw; platform_system == "Windows"
+comtypes; platform_system == "Windows"
+pywin32; platform_system == "Windows"
+
+# Optional: only needed if you set VOSK_MODEL_DIR for offline STT
+# vosk
+
+# Optional: only needed for LLM brain (pick the one matching config.LLM_PROVIDER)
+# anthropic
+# openai
+# google-generativeai
+# requests
+
+# Optional: nicer cross-platform mp3 playback for edge-tts output
+pygame-ce
